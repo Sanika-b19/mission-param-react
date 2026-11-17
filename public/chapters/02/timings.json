@@ -1,0 +1,25 @@
+{
+  "note": "Seconds into voiceover.mp3. 0–9.6 s is the spoken title and is not used by the story.",
+  "story": [
+    { "start": 10.50, "end": 13.05 },
+    { "start": 13.44, "end": 19.23 },
+    { "start": 20.03, "end": 27.61 },
+    { "start": 28.35, "end": 41.04 },
+    { "start": 42.27, "end": 53.09 },
+    { "start": 54.16, "end": 61.11 },
+    { "start": 62.00, "end": 71.70 },
+    { "start": 72.27, "end": 79.31 },
+    { "start": 80.42, "end": 90.89 },
+    { "start": 91.85, "end": 96.73 },
+    { "start": 97.49, "end": 99.44 },
+    { "start": 99.92, "end": 103.90 },
+    { "start": 105.14, "end": 106.50 },
+    { "start": 107.44, "end": 124.00 },
+    { "start": 124.99, "end": 136.18 },
+    { "start": 137.17, "end": 139.84 },
+    { "start": 140.67, "end": 146.98 }
+  ],
+  "epilogue": [
+    { "start": 147.74, "end": 153.70 }
+  ]
+}

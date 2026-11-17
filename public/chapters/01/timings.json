@@ -1,0 +1,16 @@
+{
+  "note": "Seconds into voiceover.mp3. 0–9.3 s is the spoken title and is not used by the story.",
+  "story": [
+    { "start": 10.35, "end": 19.95 },
+    { "start": 20.65, "end": 24.10 },
+    { "start": 25.30, "end": 32.62 },
+    { "start": 33.72, "end": 38.23 },
+    { "start": 39.38, "end": 45.60 },
+    { "start": 46.65, "end": 53.10 },
+    { "start": 53.99, "end": 65.29 }
+  ],
+  "epilogue": [
+    { "start": 66.40, "end": 70.17 },
+    { "start": 70.78, "end": 74.60 }
+  ]
+}

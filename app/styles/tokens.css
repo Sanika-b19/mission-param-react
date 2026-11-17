@@ -1,0 +1,35 @@
+/* Design tokens — Bhatkar Storyline kit. Dark is the default theme; [data-theme="light"] is the toggle. */
+:root{
+  --page-base:#1e272f; --stage:#0e0e0e; --paper:#121212;
+  --vignette-mid:#0a0e1359; --vignette-edge:#040608db;
+  --ink:#f4f1ec; --ink-body:#f2efea; --body:#a5a19a; --muted:rgba(244,241,236,.55); --label:#837f8c;
+  --accent:#ff4f1f; --accent-press:#e8431a; --accent-glow:rgba(255,80,40,.55); --on-accent:#fff;
+  --glow-surface:#fff; --glow-ink:#111;
+  --chrome-glass:#575e5559; --glass:rgba(255,255,255,.06); --glass-line:rgba(255,255,255,.14);
+  --chip:#ffffff12; --hair:#ffffff2e; --rule:#ffffff24;
+  --glow-accent:0 0 0 1px rgba(255,80,40,.35),0 0 14px 2px rgba(255,80,40,.55),0 0 34px 8px rgba(255,80,40,.3);
+  --glow-accent-hover:0 0 0 1px rgba(255,80,40,.45),0 0 18px 3px rgba(255,80,40,.7),0 0 44px 12px rgba(255,80,40,.38);
+  --photo-lift:0 24px 60px rgba(0,0,0,.45);
+  --font-display:anth,Cormorant,Georgia,serif;
+  --font-serif:butler,Cormorant,Georgia,serif;
+  --font-italic:Cormorant,Georgia,serif;
+  --font-sans:articulat-cf,"DM Sans",system-ui,sans-serif;
+  --font-mono:"IBM Plex Mono","DM Mono",ui-monospace,monospace;
+  --ease:cubic-bezier(.2,.7,.2,1);
+  --gx:max(16px,env(safe-area-inset-left,0px));
+  --gr:max(16px,env(safe-area-inset-right,0px));
+  color-scheme:dark;
+}
+:root[data-theme="light"]{
+  --page-base:#ffffff; --stage:#f6f6f4; --paper:#ffffff;
+  --vignette-mid:#b5bddf55; --vignette-edge:#a9b2d9aa;
+  --ink:#14120f; --ink-body:#000; --body:#666; --muted:rgba(20,18,15,.6); --label:#86838f;
+  --chrome-glass:#c7c7c759; --glass:rgba(255,255,255,.5); --glass-line:rgba(20,18,15,.14);
+  --chip:#0000000d; --hair:#00000029; --rule:#c9c9c9;
+  --glow-surface:#14120f; --glow-ink:#f4f1ec;
+  --photo-lift:0 20px 48px rgba(20,18,15,.18);
+  color-scheme:light;
+}
+
+/* spacing + motion used by the hero */
+:root{--space-3:12px;--space-4:16px;--space-6:24px;--space-8:32px;--space-16:64px;--ease-reveal:cubic-bezier(.2,.7,.2,1)}
